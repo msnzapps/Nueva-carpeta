@@ -58,7 +58,8 @@
 
 		
 		
-
+		<!-- CSS para la animación de objetos, como las letras del titulo -->
+		 <link rel="stylesheet" href="css/animate.min.css">
 		
 		
 		<!-- Mi CSS -->
@@ -102,7 +103,15 @@
 
 
 
+		<!-- plugin elimnar 300ms delay -->
+		<script type='application/javascript' src='/js/fastclick.js'></script>
 
+		<script>	
+//para el fastclick 300 ms		
+		window.addEventListener('load', function() {
+    FastClick.attach(document.body);
+}, false);
+		</script>	
 
 
 

@@ -1065,6 +1065,8 @@ urlphp = urlphp + "?dhombre=" + dhombre + "&dmujer=" + dmujer + "&dtotal=" + dto
 
 
 
+	
+	
 	//animacion del titulo
 	
 //	function doStuff1() {
