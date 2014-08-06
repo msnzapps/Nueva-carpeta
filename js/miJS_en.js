@@ -1069,16 +1069,16 @@ urlphp = urlphp + "?dhombre=" + dhombre + "&dmujer=" + dmujer + "&dtotal=" + dto
 	
 	//animacion del titulo
 	
-	function doStuff1() {
-$('#menu_boton_logo').addClass('animated pulse');
+//	function doStuff1() {
+//$('#menu_boton_logo').addClass('animated pulse');
 
-$('#menu_boton_logo').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){
+//$('#menu_boton_logo').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){
 //esto es cuando termina la animación, para quitar la clase para que se le pueda añadir mas veces :)
-		$('#menu_boton_logo').removeClass('animated pulse');
-  });
+//		$('#menu_boton_logo').removeClass('animated pulse');
+ // });
 
-}
-var myTimer1 = setInterval(doStuff1, 3000);
+//}
+//var myTimer1 = setInterval(doStuff1, 3000);
 
 
 
